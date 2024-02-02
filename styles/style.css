@@ -1,1 +1,19 @@
 /* место для вашего кода */
+.site {
+  width: 1100px;
+  height: 3028px;
+  background-color: rgb(225,225,225);
+  position: relative;
+}
+
+.header {
+  background-color: white;
+  left: 24px;
+  right: 24px;
+  top: 92px;
+  bottom: 2831px;
+  position: absolute;
+  width: 1052px;
+  height: 105px;
+}
+
