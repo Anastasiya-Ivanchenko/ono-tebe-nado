@@ -16,3 +16,11 @@
   width: 1052px;
   height: 105px;
 }
+
+.header__links-list-item_no-bullit {
+    list-style: none;
+}
+
+.header__links-list-item {
+  list-style: circle;
+}
