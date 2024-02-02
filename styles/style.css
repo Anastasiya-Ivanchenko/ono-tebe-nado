@@ -17,10 +17,17 @@
   height: 105px;
 }
 
+.header__links-list li {
+	display: inline;
+}
+
 .header__links-list-item_no-bullit {
-    list-style: none;
+  list-style: none;
+  font-size: 18px;
 }
 
 .header__links-list-item {
   list-style: circle;
+  font-size: 18px;
 }
+
