@@ -17,17 +17,28 @@
   height: 105px;
 }
 
-.header__links-list li {
-	display: inline;
-}
-
-.header__links-list-item_no-bullit {
-  list-style: none;
-  font-size: 18px;
+.header__links-list {
+  display: flex;
+  flex-direction: row;
+  column-gap: 32px;
+  padding-top: 44px;
+  padding-left: 26px;
+  padding-right: 634px;
 }
 
 .header__links-list-item {
   list-style: circle;
   font-size: 18px;
+  font-family: 'Raleway';
+  font-style: regular;
+  font-weight: 400;
+}
+
+.no-bullit {
+  list-style: none;
+}
+
+.no-bullit a, .header__links-list-item a {
+  text-decoration: none;
 }
 
