@@ -15,9 +15,12 @@ address {
 
 .header {
   display: grid;
-  
   background-color: white;
-  padding: 92px 24px 70px 24px;
+  left: 24px;
+  right: 24px;
+  top: 92px;
+  bottom: 2831px;
+  position: absolute;
   width: 1052px;
   height: 105px;
 }
@@ -25,6 +28,7 @@ address {
 .header__links-list {
   display: flex;
   flex-direction: row;
+  position: absolute;
   column-gap: 32px;
   padding-top: 44px;
   padding-left: 26px;
@@ -72,13 +76,4 @@ address {
   font-style: normal;
   font-weight: normal;
   line-height: 24px;
-}
-
-.cover {
-  height: 783px;
-  background-image: url(/images/cover.jpg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-color: aquamarine;
-  padding-top: 267px;
 }
