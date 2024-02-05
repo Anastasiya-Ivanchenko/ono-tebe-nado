@@ -5,6 +5,7 @@ address {
 	border: 0;
 }
 
+
 .body {
   width: 1100px;
   height: 3028px;
@@ -14,12 +15,9 @@ address {
 
 .header {
   display: grid;
+  
   background-color: white;
-  left: 24px;
-  right: 24px;
-  top: 92px;
-  bottom: 2831px;
-  position: absolute;
+  padding: 92px 24px 70px 24px;
   width: 1052px;
   height: 105px;
 }
@@ -66,10 +64,21 @@ address {
 .address {
   display: flex;
   flex-direction: column;
+  top: 8px;
   padding-left: 786px;
   position: absolute;
   font-size: 18px;
   font-family: 'Raleway';
   font-style: normal;
   font-weight: normal;
+  line-height: 24px;
+}
+
+.cover {
+  height: 783px;
+  background-image: url(/images/cover.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: aquamarine;
+  padding-top: 267px;
 }
